@@ -7,13 +7,13 @@ for (let i = 0; i < numbers.length; ++i) {
 	switch (true) {
 		case numbers[i] == 0:
 			zeroNumbers += 1;
-			break
+			break;
 		case numbers[i] > 0:
 			positiceNums += 1;
-			break
+			break;
 		case numbers[i] < 0:
 			negativeNumbers += 1;
-			break
+			break;
 	}
 }
 
