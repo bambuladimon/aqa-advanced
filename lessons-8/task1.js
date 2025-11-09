@@ -4,14 +4,17 @@ let negativeNumbers = 0;
 let zeroNumbers = 0;
 
 for (let i = 0; i < numbers.length; ++i) {
-    switch (true) {
-        case (numbers[i] == 0):
-            zeroNumbers += 1;
-        case (numbers[i] > 0):
-            positiceNums += 1;
-        case (numbers[i] < 0):
-            negativeNumbers += 1;
-    }
+	switch (true) {
+		case numbers[i] == 0:
+			zeroNumbers += 1;
+			break
+		case numbers[i] > 0:
+			positiceNums += 1;
+			break
+		case numbers[i] < 0:
+			negativeNumbers += 1;
+			break
+	}
 }
 
 console.log(`Кількість позитивних чисел: ${positiceNums}`);

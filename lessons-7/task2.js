@@ -1,9 +1,8 @@
 function getNum(num) {
-    console.log(num);
-    while (num > 0) {
-        return getNum(num - 1)
-    }
-    
+	console.log(num);
+	while (num > 0) {
+		return getNum(num - 1);
+	}
 }
 
-getNum(5)
+getNum(5);
