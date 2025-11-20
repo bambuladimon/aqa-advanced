@@ -1,24 +1,33 @@
 {
-  "name": "aqa-advanced",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bambuladimon/aqa-advanced.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bambuladimon/aqa-advanced/issues"
-  },
-  "homepage": "https://github.com/bambuladimon/aqa-advanced#readme",
-  "dependencies": {
-    "chalk": "^5.6.2",
-    "prompt-sync": "^4.2.0"
-  }
+	"name": "aqa-advanced",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky",
+		"lint": "npx eslint --fix ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bambuladimon/aqa-advanced.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bambuladimon/aqa-advanced/issues"
+	},
+	"homepage": "https://github.com/bambuladimon/aqa-advanced#readme",
+	"dependencies": {
+		"chalk": "^5.6.2",
+		"prompt-sync": "^4.2.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.39.1",
+		"eslint": "^9.39.1",
+		"globals": "^16.5.0",
+		"husky": "^9.1.7",
+		"prettier": "^3.6.2"
+	}
 }
