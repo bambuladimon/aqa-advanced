@@ -1,11 +1,10 @@
-function plosh4a(w, h) {
+function square(w, h) {
     return w*h
 }
 
-console.log("Function Declaration:", plosh4a(4,5))
+console.log("Function Declaration:", square(4,5))
 
-
-let res = function plosh4a(w, h) {
+let res = function square(w, h) {
     return w*h
 }
 
