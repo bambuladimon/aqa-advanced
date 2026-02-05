@@ -1,10 +1,10 @@
 let book = {
-    title: 'Book name',
-    author: 'Books author',
-    year: '2025'
-}
+	title: 'Book name',
+	author: 'Books author',
+	year: '2025',
+};
 
-let {title, author } = book;
+let { title, author } = book;
 
 console.log(title);
 console.log(author);
