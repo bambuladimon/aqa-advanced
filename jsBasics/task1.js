@@ -6,4 +6,4 @@ let undef;
 let objNul = null;
 let symbolValue = Symbol('a');
 
-console.log(str, num, gay, bigInt, undef, objNul, symbolValue)
+console.log(str, num, gay, bigInt, undef, objNul, symbolValue);
